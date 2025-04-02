@@ -4,6 +4,8 @@
 
 This project analyzes the impact of the COVID-19 pandemic on the collective happiness of individuals from different regions worldwide. Using data from the 2020-2021 World Happiness Report, this study examines variations in happiness scores across regions and over time, employing statistical methods such as one-way ANOVA, paired t-tests, Pearson correlation, and multiple linear regression.
 
+🔗 Research Paper
+
 ### 🎯 Statistical Methods Used
 - One-way ANOVA: Tested whether happiness scores significantly differed across regions.
 - Paired t-tests: Analyzed whether happiness scores changed significantly from 2020 to 2021.
