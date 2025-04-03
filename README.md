@@ -15,7 +15,7 @@ The following research questions were answered:
 
 ### 🏭 Data Sources
 
-Dataset: [World Happiness Report 2020 ](https://worldhappiness.report/ed/2020/)and [World Happiness Report 2021](https://worldhappiness.report/ed/2021/)
+Dataset: [World Happiness Report 2020 ](https://worldhappiness.report/ed/2020/)and [World Happiness Report 2021](https://worldhappiness.report/ed/2021/)  
 Link: [Kaggle](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021)
 - The report primarily sourced the data from the Gallup World Poll and incorporates it with data from other sources such as the World Risk Poll, the COVID Data Hub, and the Oxford COVID-19 Government Response Tracker for the 2021 report.
 - The 2020 data is based on surveys and reports conducted in 2019 and early 2020.
@@ -48,13 +48,10 @@ The predictors involved are the following variables from the World Happiness Rep
 - Social Support: the degree to which people feel they have someone to count on in times of trouble
 
 ### 🏗 Methodology
-- One-way ANOVA: Tested whether happiness scores significantly differed across regions.
-- Paired t-tests: Analyzed whether happiness scores changed significantly from 2020 to 2021.
-- Pearson correlation: Measured relationships between happiness and six factors (GDP, social support, life expectancy, corruption perception, freedom of choice, and generosity).
-- Multiple linear regression: Modeled happiness scores based on predictor variables to quantify their impact.
-
-
-
+1. One-way ANOVA: Tested whether happiness scores significantly differed across regions.
+2. Paired t-tests: Analyzed whether happiness scores changed significantly from 2020 to 2021.
+3. Pearson correlation: Measured relationships between happiness and six factors (GDP, social support, life expectancy, corruption perception, freedom of choice, and generosity).
+4. Multiple linear regression: Modeled happiness scores based on predictor variables to quantify their impact.
 
 ### 📊 Key Insights
 - Significant Regional Differences: One-way ANOVA tests confirmed that happiness scores significantly varied across different regions in both 2020 and 2021.
