@@ -91,6 +91,8 @@ The predictors involved are the following variables from the World Happiness Rep
 
 </div>
 
+The only region that had a statistically significant mean happiness score difference, as shown above, was Latin America and the Caribbean region. As shown below, the mean happiness score difference for this region was 0.26, which means that the region had a slightly higher happiness score in 2021 than in 2020, contrary to what was expected for it to be due to the pandemic.
+
 <p align="center">
 <img src="https://github.com/MaryNathalie/How-the-onset-of-the-COVID-19-pandemic-affected-the-happiness-of-different-regions-of-the-world/blob/main/images/mean_happiness_score.png" width=50% height=50%>
 </p> 
