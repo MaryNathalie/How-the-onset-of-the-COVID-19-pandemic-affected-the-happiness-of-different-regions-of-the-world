@@ -56,9 +56,42 @@ The predictors involved are the following variables from the World Happiness Rep
 4. Multiple linear regression: Modeled happiness scores based on predictor variables to quantify their impact.
 
 ### 📊 Key Insights
-- Significant Regional Differences: One-way ANOVA tests confirmed that happiness scores significantly varied across different regions in both 2020 and 2021.
-- Limited Impact of Time: Paired t-tests showed that, except for Latin America and the Caribbean, happiness scores did not significantly change from 2020 to 2021, indicating that region played a bigger role than the pandemic’s onset in determining happiness.
-- Top Influencing Factors:
+1. One-way ANOVA tests: Significant Regional Differences
+- P-value < 0.05
+- Null Hypothesis: There was no difference in the mean happiness score among the regions.
+- Alternative Hypothersis: There was at least one region that had a different mean happiness score. 
+<div align="center">
+
+| Year                                 | F statistic    | P-value     |
+|--------------------------------------|----------------|-------------|
+| 2020                                 | 14.69          | 4.59e-14    |
+| 2021                                 | 25.34          | 2.57e-25    |
+
+</div>
+
+2. Paired t-tests: Limited Impact of Time
+- P-value < 0.05
+- Null Hypothesis: The mean difference in the happiness score between the two years within each region was equal to zero
+- Alternative Hypothersis: The mean difference in the happiness score between the two years within each region was equal to zero
+
+<div align="center">
+
+| Region                                 |  T statistic    | P-value     |
+|----------------------------------------|-----------------|-------------|
+| Sub-Saharan Africa                     | 1.06            | 0.31        |
+| Western Europe                         | -1.52           | 0.15        |
+| Latin America & the Caribbean          | -5.00           | 5.37e-4     |
+| Middle East & North Africa             | -0.87           | 0.41        |
+| Central and Eastern Europe             | 1.90            | 7.67e-2     |
+| Commonwealth of Independent States     | 1.90            | 0.11        |
+| Southeast Asia                         | -1.19           | 0.30        |
+| South Asia                             | 4.38            | 0.14        |
+| East Asia                              | 1.55            | 0.18        |
+| North American and ANZ                 | -0.50           | 0.65        |
+
+</div>
+
+4. Top Influencing Factors: Pearson Correlation Coefficient
   - Strong Positive Correlation:
     - Logged GDP per capita (economic prosperity)
     - Social support (having someone to rely on)
@@ -68,6 +101,20 @@ The predictors involved are the following variables from the World Happiness Rep
     - Perceptions of corruption (moderate negative impact)
   - No Effect:
     - Generosity had no statistically significant correlation with happiness.
-- Regression Analysis: A multiple linear regression model explained 75.4% of the variation in happiness scores, confirming the importance of economic and social factors. However, the model did not fully meet the assumption of normality of residuals, suggesting the need for further refinement.
 
-### 📜 Future Work
+<div align="center">
+
+| Factors                            |  Correlation Coefficient |
+|------------------------------------|--------------------------|
+| Freedom to make life choices       | 0.54                     | 
+| Generosity                         | -0.061                   |
+| Healthy life expectancy            | 0.74                     | 
+| Log GDP per capita                 | 0.84                     | 
+| Perceptions of corruption          | -0.51                    | 
+| Social support                     | 0.77                     | 
+
+</div>
+
+4. Regression Analysis:  
+A multiple linear regression model explained 75.4% of the variation in happiness scores, confirming the importance of economic and social factors. However, the model did not fully meet the assumption of normality of residuals, suggesting the need for further refinement.
+
