@@ -91,6 +91,10 @@ The predictors involved are the following variables from the World Happiness Rep
 
 </div>
 
+<p align="center">
+<img src="https://github.com/MaryNathalie/How-the-onset-of-the-COVID-19-pandemic-affected-the-happiness-of-different-regions-of-the-world/blob/main/images/mean_happiness_score.png" width=50% height=50%>
+</p> 
+
 4. Top Influencing Factors: Pearson Correlation Coefficient
   - Strong Positive Correlation:
     - Logged GDP per capita (economic prosperity)
@@ -117,4 +121,8 @@ The predictors involved are the following variables from the World Happiness Rep
 
 4. Regression Analysis:  
 A multiple linear regression model explained 75.4% of the variation in happiness scores, confirming the importance of economic and social factors. However, the model did not fully meet the assumption of normality of residuals, suggesting the need for further refinement.
+
+<p align="center">
+<img src="https://github.com/MaryNathalie/How-the-onset-of-the-COVID-19-pandemic-affected-the-happiness-of-different-regions-of-the-world/blob/main/images/linear_regression.png" width=50% height=50%>
+</p> 
 
