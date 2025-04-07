@@ -16,11 +16,13 @@ The following research questions were answered:
 ### 🏭 Data Sources
 
 Dataset: [World Happiness Report 2020 ](https://worldhappiness.report/ed/2020/)and [World Happiness Report 2021](https://worldhappiness.report/ed/2021/)  
-Link: [Kaggle](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021)
-- The report primarily sourced the data from the Gallup World Poll and incorporates it with data from other sources such as the World Risk Poll, the COVID Data Hub, and the Oxford COVID-19 Government Response Tracker for the 2021 report.
+Link: [Kaggle](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021)  
+
+The report primarily sourced the data from the Gallup World Poll and incorporates it with data from other sources such as the World Risk Poll, the COVID Data Hub, and the Oxford COVID-19 Government Response Tracker for the 2021 report.
 - The 2020 data is based on surveys and reports conducted in 2019 and early 2020.
 - The 2021 data is based on surveys and reports conducted in 2020 and early 2021.
-- The number of samples in this study was determined by the availability of the data from the World Happiness Report, which includes data from countries grouped into 10 regions based on the regional indicator variable. The table below shows the number of samples or countries for each region varies.
+
+The number of samples in this study was determined by the availability of the data from the World Happiness Report, which includes data from countries grouped into 10 regions based on the regional indicator variable. The table below shows the number of samples or countries for each region varies.
 
 <div align="center">
 
